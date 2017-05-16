@@ -111,6 +111,7 @@ DEPENDENCIES
   guard-bundler
   guard-rspec
   http
+  icalendar
   icalendar-recurrence
   pry-byebug
   rake

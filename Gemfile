@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'http'
+gem 'icalendar'
 gem 'icalendar-recurrence'
 gem 'tzinfo'
 

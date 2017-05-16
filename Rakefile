@@ -15,3 +15,15 @@ namespace :spec do
 end
 
 RuboCop::RakeTask.new
+
+namespace :docker do
+  desc 'Build the image'
+  task :build do
+    sh 'docker build -t suhlig/concourse-ical-resource:latest .'
+  end
+
+  desc 'Publish the image'
+  task push: [:build] do
+    sh 'docker push suhlig/concourse-ical-resource'
+  end
+end
