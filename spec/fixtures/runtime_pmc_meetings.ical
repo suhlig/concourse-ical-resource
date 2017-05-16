@@ -1,0 +1,334 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PMC Meetings
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:Calendar for all PMC meetings including:\nBosh\, Runtime PC\, 
+ Services\, Utilities\, Buildbacks\n
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20161214T173000
+DTEND;TZID=America/New_York:20161214T180000
+RRULE:FREQ=WEEKLY;INTERVAL=4;BYDAY=WE
+DTSTAMP:20170511T120937Z
+UID:t9aposkhg5it3ofgmmq0e62vlc_R20161214T223000@google.com
+CREATED:20160307T203043Z
+DESCRIPTION:https://meetings.webex.com/collabs/#/meetings/detail?uuid=M7VLU
+ DE9ZVMT3ETJ8TGDSXQD9B-POA&rnd=128072.33016\n\nMeeting Number: 190 227 234\n
+ US TOLL: +1-415-655-0001\nUS TOLL FREE: +1-855-749-4750\n
+LAST-MODIFIED:20170503T211558Z
+LOCATION:webex
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Runtime PMC Meeting
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+X-WR-ALARMUID:710EB456-DC00-483C-BD97-9D707AC4C7ED
+UID:710EB456-DC00-483C-BD97-9D707AC4C7ED
+ACKNOWLEDGED:20170503T211550Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20161227T133000
+DTEND;TZID=America/New_York:20161227T140000
+RRULE:FREQ=WEEKLY;INTERVAL=4;BYDAY=TU
+DTSTAMP:20170511T120937Z
+UID:o4q65dp9g33f9jl406ba14e5p0_R20161227T183000@google.com
+CREATED:20160307T203428Z
+DESCRIPTION:https://meetings.webex.com/collabs/#/meetings/detail?uuid=M1FOH
+ R4G32XKSA3OINYKF1MBBV-POA&rnd=78328.251488\n\nMeeting Number: 195 523 704\n
+ US TOLL: +1-415-655-0001\nUS TOLL FREE: +1-855-749-4750
+LAST-MODIFIED:20161129T183920Z
+LOCATION:webex
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Runtime PMC Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20160322T133000
+DTEND;TZID=America/New_York:20160322T143000
+RRULE:FREQ=WEEKLY;UNTIL=20161227T182959Z;INTERVAL=4;BYDAY=TU
+DTSTAMP:20170511T120937Z
+UID:o4q65dp9g33f9jl406ba14e5p0@google.com
+CREATED:20160307T203428Z
+DESCRIPTION:https://meetings.webex.com/collabs/#/meetings/detail?uuid=M1FOH
+ R4G32XKSA3OINYKF1MBBV-POA&rnd=78328.251488\n\nMeeting Number: 195 523 704\n
+ US TOLL: +1-415-655-0001\nUS TOLL FREE: +1-855-749-4750
+LAST-MODIFIED:20161129T183920Z
+LOCATION:webex
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Runtime PMC Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20160504T173000
+DTEND;TZID=America/New_York:20160504T183000
+RRULE:FREQ=WEEKLY;UNTIL=20161214T222959Z;INTERVAL=4;BYDAY=WE
+DTSTAMP:20170511T120937Z
+UID:t9aposkhg5it3ofgmmq0e62vlc@google.com
+CREATED:20160307T203043Z
+DESCRIPTION:https://meetings.webex.com/collabs/#/meetings/detail?uuid=M7VLU
+ DE9ZVMT3ETJ8TGDSXQD9B-POA&rnd=128072.33016\n\nMeeting Number: 190 227 234\n
+ US TOLL: +1-415-655-0001\nUS TOLL FREE: +1-855-749-4750\n
+LAST-MODIFIED:20161129T183858Z
+LOCATION:webex
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Runtime PMC Meeting
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+X-WR-ALARMUID:710EB456-DC00-483C-BD97-9D707AC4C7ED
+UID:710EB456-DC00-483C-BD97-9D707AC4C7ED
+ACKNOWLEDGED:20161116T223446Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20160309T163000
+DTEND;TZID=America/New_York:20160309T173000
+RRULE:FREQ=WEEKLY;UNTIL=20160504T035959Z;INTERVAL=4;BYDAY=WE
+DTSTAMP:20170511T120937Z
+UID:ca64sopt23vc5j63bhi53a7384@google.com
+CREATED:20160307T203043Z
+DESCRIPTION:https://meetings.webex.com/collabs/#/meetings/detail?uuid=M0B4E
+ ZL8UW4BGYJ83G5QLD4VJ5-POA&rnd=618190.72935\n\nMeeting Number: 199 347 480\n
+ US TOLL: +1-415-655-0001\nUS TOLL FREE: +1-855-749-4750\n
+LAST-MODIFIED:20160504T132801Z
+LOCATION:webex
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Runtime PMC Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20150728T160000
+DTEND;TZID=America/New_York:20150728T163000
+RRULE:FREQ=WEEKLY;UNTIL=20150825T200000Z;INTERVAL=2;BYDAY=TU
+EXDATE;TZID=America/New_York:20150825T160000
+EXDATE;TZID=America/New_York:20150811T160000
+DTSTAMP:20170511T120937Z
+UID:uvrsdategbmofbmisfeuv87t5k_R20150728T200000@google.com
+CREATED:20150625T175203Z
+DESCRIPTION:Utilities PMC Bi-Weekly Meeting\nEvery 2 weeks on Tuesday\, fro
+ m Tue\, Jun 16\, 2015 to no end date\, 4:00 pm | 30 min\n\nNew York (Easter
+ n Daylight Time\, GMT-04:00)\nHost: Chip Childers\n\nWhen it's time\, start
+  the meeting from here:\nhttps://meetings.webex.com/collabs/meetings/join?u
+ uid=MDK758G93WJ52PG0YCXQQ0MVL6-POA\n\n\n\nAgenda\nThis meeting does not hav
+ e an agenda.\n\nAccess Information\nWhere: WebEx Online\nMeeting number: 19
+ 4 614 457\nMeeting password: This meeting does not require a password.\n\nA
+ udio Connection\n1-855-749-4750 Call-in toll-free number (US/Canada)\n1-415
+ -655-0001 Call-in toll number (US/Canada)\nAccess code: 194 614 457\n\nNeed
+  more numbers or information?\nCheck out toll-free calling restrictions: \n
+ https://www.webex.com/pdf/tollfree_restrictions.pdf
+LAST-MODIFIED:20150820T174231Z
+LOCATION:WebEx
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Utilities PMC Bi-Weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20150707T160000
+DTEND;TZID=America/New_York:20150707T163000
+DTSTAMP:20170511T120937Z
+UID:uvrsdategbmofbmisfeuv87t5k@google.com
+RECURRENCE-ID;TZID=America/New_York:20150630T160000
+CREATED:20150625T175203Z
+DESCRIPTION:Utilities PMC Bi-Weekly Meeting \nTue\, Jul 7\, 4:00 pm | 30 mi
+ n (updated)\nNew York (Eastern Daylight Time\, GMT-04:00) \nHost: Chip Chil
+ ders\n\nWhen it's time\, start the meeting from here:\nhttps://meetings.web
+ ex.com/collabs/meetings/join?uuid=I3R9S5CNG11P31ISZOLMVFU5AT-POA\n\n\nAgend
+ a \nThis meeting does not have an agenda.\n\nAccess Information\nWhere: Web
+ Ex Online \nMeeting number: 193 634 827\nMeeting password: This meeting doe
+ s not require a password. \nHost key: 340054 (Use this key in the meeting i
+ f you have made someone else the host and then want to reclaim the host rol
+ e.)\n\nAudio Connection \n1-855-244-8681 Call-in toll-free number (US/Canad
+ a)\n1-650-479-3207 Call-in toll number (US/Canada)\nAccess code: 193 634 82
+ 7
+LAST-MODIFIED:20150820T174231Z
+LOCATION:WebEx
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Utilities PMC Bi-Weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20150630T160000
+DTEND;TZID=America/New_York:20150630T163000
+RRULE:FREQ=WEEKLY;UNTIL=20150728T195959Z;INTERVAL=2;BYDAY=TU
+EXDATE;TZID=America/New_York:20150714T160000
+DTSTAMP:20170511T120937Z
+UID:uvrsdategbmofbmisfeuv87t5k@google.com
+CREATED:20150625T175203Z
+DESCRIPTION:Utilities PMC Bi-Weekly Meeting\nEvery 2 weeks on Tuesday\, fro
+ m Tue\, Jun 16\, 2015 to no end date\, 4:00 pm | 30 min\n\nNew York (Easter
+ n Daylight Time\, GMT-04:00)\nHost: Chip Childers\n\nWhen it's time\, start
+  the meeting from here:\nhttps://meetings.webex.com/collabs/meetings/join?u
+ uid=MDK758G93WJ52PG0YCXQQ0MVL6-POA\n\n\nAgenda\nThis meeting does not have 
+ an agenda.\n\nAccess Information\nWhere: WebEx Online\nMeeting number: 194 
+ 614 457\nMeeting password: This meeting does not require a password.\nHost 
+ key: 925079 (Use this key in the meeting if you have made someone else the 
+ host and then want to reclaim the host role.)\n\nAudio Connection\n1-855-24
+ 4-8681 Call-in toll-free number (US/Canada)\n1-650-479-3207 Call-in toll nu
+ mber (US/Canada)\nAccess code: 194 614 457\n\nNeed more numbers or informat
+ ion?\nCheck out toll-free calling restrictions: \nhttps://www.webex.com/pdf
+ /tollfree_restrictions.pdf
+LAST-MODIFIED:20150820T174231Z
+LOCATION:WebEx
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Utilities PMC Bi-Weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20150727T130000
+DTEND;TZID=America/New_York:20150727T133000
+RRULE:FREQ=WEEKLY;UNTIL=20150824T170000Z;INTERVAL=2;BYDAY=MO
+EXDATE;TZID=America/New_York:20150824T130000
+EXDATE;TZID=America/New_York:20150810T130000
+DTSTAMP:20170511T120937Z
+UID:o0mmq2vssp7aeks3lau6oh4784_R20150727T170000@google.com
+CREATED:20150609T134253Z
+DESCRIPTION:Buildpacks PMC Bi-Weekly Meeting\nBi-Weekly\, Mondays at 1:00 p
+ m | 30 mins\nNew York (Eastern Daylight Time\, GMT-04:00)\nHost: Chip Child
+ ers\n\nWhen it's time\, join the meeting from here:\nhttps://meetings.webex
+ .com/collabs/#/meetings/detail?uuid=M1WHL4WKGGP48L99AZYMDHJBCU-POA&rnd=3082
+ 68.58821\n\nAccess Information\nWhere: WebEx Online\nMeeting number: 190 03
+ 8 430\nMeeting password: This meeting does not require a password.\n\nAudio
+  Connection\n1-855-749-4750 Call-in toll-free number (US/Canada)\n1-415-655
+ -0001 Call-in toll number (US/Canada)\nAccess code: 190 038 430\n\nNeed mor
+ e numbers or information?\nCheck out toll-free calling restrictions: \nhttp
+ s://www.webex.com/pdf/tollfree_restrictions.pdf
+LAST-MODIFIED:20150820T174224Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Buildpacks PMC Bi-Weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20150706T130000
+DTEND;TZID=America/New_York:20150706T133000
+DTSTAMP:20170511T120937Z
+UID:o0mmq2vssp7aeks3lau6oh4784@google.com
+RECURRENCE-ID;TZID=America/New_York:20150629T130000
+CREATED:20150609T134253Z
+DESCRIPTION:Buildpacks PMC Bi-Weekly Meeting\nBi-Weekly\, Mondays at 1:00 p
+ m | 30 mins\nNew York (Eastern Daylight Time\, GMT-04:00)\nHost: Chip Child
+ ers\n\nWhen it's time\, join the meeting from here:\nhttps://meetings.webex
+ .com/collabs/#/meetings/detail?uuid=IDCT3J3V1KZYTXEHOW8Q3SJCVH-POA&rnd=4246
+ 88.47170\n\nAccess Information\nWhere: WebEx Online\nMeeting number: 199 79
+ 6 501\nMeeting password: This meeting does not require a password.\n\nAudio
+  Connection\n1-855-244-8681 Call-in toll-free number (US/Canada)\n1-650-479
+ -3207 Call-in toll number (US/Canada)\nAccess code: 199 796 501\n\nNeed mor
+ e numbers or information?\nCheck out toll-free calling restrictions: \nhttp
+ s://www.webex.com/pdf/tollfree_restrictions.pdf
+LAST-MODIFIED:20150820T174224Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Buildpacks PMC Bi-Weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20150615T130000
+DTEND;TZID=America/New_York:20150615T133000
+RRULE:FREQ=WEEKLY;UNTIL=20150727T165959Z;INTERVAL=2;BYDAY=MO
+EXDATE;TZID=America/New_York:20150713T130000
+DTSTAMP:20170511T120937Z
+UID:o0mmq2vssp7aeks3lau6oh4784@google.com
+CREATED:20150609T134253Z
+DESCRIPTION:Buildpacks PMC Bi-Weekly Meeting\nBi-Weekly\, Mondays at 1:00 p
+ m | 30 mins\nNew York (Eastern Daylight Time\, GMT-04:00)\nHost: Chip Child
+ ers\n\nWhen it's time\, join the meeting from here:\nhttps://meetings.webex
+ .com/collabs/meetings/join?uuid=IAKU508TWRDTJQXK5F7EAT5X2P-POA\n\nAccess In
+ formation\nWhere: WebEx Online\nMeeting number: 194 282 326\nMeeting passwo
+ rd: This meeting does not require a password.\n\nAudio Connection\n1-855-24
+ 4-8681 Call-in toll-free number (US/Canada)\n1-650-479-3207 Call-in toll nu
+ mber (US/Canada)\nAccess code: 194 282 326\n\nNeed more numbers or informat
+ ion?\nCheck out toll-free calling restrictions: \nhttps://www.webex.com/pdf
+ /tollfree_restrictions.pdf
+LAST-MODIFIED:20150820T174224Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Buildpacks PMC Bi-Weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20150611T133000
+DTEND;TZID=America/New_York:20150611T143000
+RRULE:FREQ=WEEKLY;UNTIL=20150820T173000Z;INTERVAL=2;BYDAY=TH
+EXDATE;TZID=America/New_York:20150820T133000
+EXDATE;TZID=America/New_York:20150709T133000
+DTSTAMP:20170511T120937Z
+UID:nrkcet40aetlpv4bp02lsfib34@google.com
+CREATED:20150609T133718Z
+DESCRIPTION:Services PMC Bi-Weekly Meeting\nBi-Weekly\, Thurdays at 1:30 pm
+  | 1 hr\nNew York (Eastern Daylight Time\, GMT-04:00)\nHost: Chip Childers\
+ n\nWhen it's time\, join the meeting from here:\nhttps://meetings.webex.com
+ /collabs/#/meetings/detail?uuid=M32KH81J1IU2V7CYN56MXID3DY-POA&rnd=278389.0
+ 0239\n\nAccess Information\nWhere: WebEx Online\nMeeting number: 199 287 71
+ 7\nMeeting password: This meeting does not require a password.\n\nAudio Con
+ nection\n1-855-244-8681 Call-in toll-free number (US/Canada)\n1-650-479-320
+ 7 Call-in toll number (US/Canada)\nAccess code: 199 287 717\n\nNeed more nu
+ mbers or information?\nCheck out toll-free calling restrictions: \nhttps://
+ www.webex.com/pdf/tollfree_restrictions.pdf
+LAST-MODIFIED:20150820T174212Z
+LOCATION:webex
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Services PMC Bi-Weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150616T200000Z
+DTEND:20150616T203000Z
+DTSTAMP:20170511T120937Z
+UID:g06p0kfuvj7bd4tlm36kv44bi8@google.com
+CREATED:20150609T140050Z
+DESCRIPTION:Utilities PMC Bi-Weekly Meeting\nEvery 2 weeks on Tuesday\, fro
+ m Tue\, Jun 16\, 2015 to no end date\, 4:00 pm | 30 min\n\nNew York (Easter
+ n Daylight Time\, GMT-04:00)\n\nWhen it's time\, join the meeting from here
+ :\nhttps://meetings.webex.com/collabs/meetings/join?uuid=MDK758G93WJ52PG0YC
+ XQQ0MVL6-POA\n\nAgenda\nThis meeting does not have an agenda.\n\nAccess Inf
+ ormation\nWhere: WebEx Online\nMeeting number: 194 614 457\nMeeting passwor
+ d: This meeting does not require a password.\n\nAudio Connection\n1-855-244
+ -8681 Call-in toll-free number (US/Canada)\n1-650-479-3207 Call-in toll num
+ ber (US/Canada)\nAccess code: 194 614 457\n\nNeed more numbers or informati
+ on?\nCheck out toll-free calling restrictions: \nhttps://www.webex.com/pdf/
+ tollfree_restrictions.pdf
+LAST-MODIFIED:20150609T140050Z
+LOCATION:WebEx
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Utilities PMC Bi-Weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
