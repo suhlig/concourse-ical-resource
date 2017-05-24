@@ -24,7 +24,7 @@ resources:
   - name: runtime-pmc-meetings
     type: icalendar
     source:
-      url: 'https://www.google.com/calendar/ical/cloudfoundry.org_8ms13q67p9jjeeilng6dosnu50@group.calendar.google.com/public/basic.ics'
+      url:  https://www.google.com/calendar/ical/cloudfoundry.org_8ms13q67p9jjeeilng6dosnu50@group.calendar.google.com/public/basic.ics
       range: yesterday
 ```
 

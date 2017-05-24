@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:PMC Meetings
 X-WR-TIMEZONE:America/Los_Angeles
-X-WR-CALDESC:Calendar for all PMC meetings including:\nBosh\, Runtime PC\, 
+X-WR-CALDESC:Calendar for all PMC meetings including:\nBosh\, Runtime PC\,
  Services\, Utilities\, Buildbacks\n
 BEGIN:VTIMEZONE
 TZID:America/New_York
@@ -190,10 +190,10 @@ DESCRIPTION:Utilities PMC Bi-Weekly Meeting\nEvery 2 weeks on Tuesday\, fro
  m Tue\, Jun 16\, 2015 to no end date\, 4:00 pm | 30 min\n\nNew York (Easter
  n Daylight Time\, GMT-04:00)\nHost: Chip Childers\n\nWhen it's time\, start
   the meeting from here:\nhttps://meetings.webex.com/collabs/meetings/join?u
- uid=MDK758G93WJ52PG0YCXQQ0MVL6-POA\n\n\nAgenda\nThis meeting does not have 
- an agenda.\n\nAccess Information\nWhere: WebEx Online\nMeeting number: 194 
- 614 457\nMeeting password: This meeting does not require a password.\nHost 
- key: 925079 (Use this key in the meeting if you have made someone else the 
+ uid=MDK758G93WJ52PG0YCXQQ0MVL6-POA\n\n\nAgenda\nThis meeting does not have
+ an agenda.\n\nAccess Information\nWhere: WebEx Online\nMeeting number: 194
+ 614 457\nMeeting password: This meeting does not require a password.\nHost
+ key: 925079 (Use this key in the meeting if you have made someone else the
  host and then want to reclaim the host role.)\n\nAudio Connection\n1-855-24
  4-8681 Call-in toll-free number (US/Canada)\n1-650-479-3207 Call-in toll nu
  mber (US/Canada)\nAccess code: 194 614 457\n\nNeed more numbers or informat
