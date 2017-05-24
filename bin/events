@@ -10,7 +10,7 @@ require 'ical_resource'
 response = HTTP.follow.get(ENV.fetch('CALENDAR_URL'))
 calendar = Icalendar::Calendar.parse(response).first
 
-range_spec = ENV.fetch('RANGE_SPEC', ARGV.first || 'today')
+range_spec = ENV.fetch('RANGE_SPEC', ARGV.join(' ') || 'today')
 range = IcalResource::RangeParser.parse(range_spec)
 
 warn "Looking for events within #{range}"
