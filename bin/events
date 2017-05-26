@@ -18,5 +18,5 @@ warn "Looking for events within #{range}"
 IcalResource::Occurrences.new(calendar).within(range).each do |event_occurrence|
   event = event_occurrence.event
   occurrence = event_occurrence.occurrence
-  puts "#{event.summary}: #{occurrence.start_time} - #{occurrence.end_time}"
+  puts "#{event.summary}: #{occurrence.start_time} - #{occurrence.end_time} (#{event_occurrence.uid})"
 end

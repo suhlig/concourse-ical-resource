@@ -16,8 +16,21 @@ describe 'Runtime PMC meetings' do
       expect(occurrences).to_not be_empty
     end
 
-    it 'all have a summary' do
-      expect(occurrences).to all(satisfy { |o| !o.event.summary.empty? })
+    it 'all have an event' do
+      expect(occurrences).to all(satisfy(&:event))
+      expect(occurrences).to all(satisfy { |eo| !eo.event.summary.empty? })
+      expect(occurrences).to all(satisfy { |eo| !eo.event.description.empty? })
+      expect(occurrences).to all(satisfy { |eo| !eo.event.location.empty? })
+    end
+
+    it 'all have an occurrence' do
+      expect(occurrences).to all(satisfy(&:occurrence))
+      expect(occurrences).to all(satisfy { |eo| eo.occurrence.start_time })
+      expect(occurrences).to all(satisfy { |eo| eo.occurrence.end_time })
+    end
+
+    it 'all have an uid' do
+      expect(occurrences).to all(satisfy(&:uid))
     end
   end
 
@@ -26,6 +39,24 @@ describe 'Runtime PMC meetings' do
 
     it 'happen three times' do
       expect(occurrences.size).to eq(3)
+    end
+
+    it 'all three occurrences have different start times' do
+      expect(occurrences[0].occurrence.start_time).to_not eq(occurrences[1].occurrence.start_time)
+      expect(occurrences[1].occurrence.start_time).to_not eq(occurrences[2].occurrence.start_time)
+      expect(occurrences[2].occurrence.start_time).to_not eq(occurrences[0].occurrence.start_time)
+    end
+
+    it 'all three occurrences have different end times' do
+      expect(occurrences[0].occurrence.end_time).to_not eq(occurrences[1].occurrence.end_time)
+      expect(occurrences[1].occurrence.end_time).to_not eq(occurrences[2].occurrence.end_time)
+      expect(occurrences[2].occurrence.end_time).to_not eq(occurrences[0].occurrence.end_time)
+    end
+
+    it 'all three occurrences have different uids' do
+      expect(occurrences[0].uid.to_s).to_not eq(occurrences[1].uid.to_s)
+      expect(occurrences[1].uid.to_s).to_not eq(occurrences[2].uid.to_s)
+      expect(occurrences[2].uid.to_s).to_not eq(occurrences[0].uid.to_s)
     end
 
     context 'the first occurrence' do
