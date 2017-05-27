@@ -1,6 +1,7 @@
 # frozen_string_literal: true
+
 module Concourse
-module Resource
+  module Resource
     class FeedInvalid < StandardError
       def initialize(url)
         super("Could not parse contents of #{url}")

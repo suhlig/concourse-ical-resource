@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'concourse/resource/serializer'
 require 'concourse/resource/errors'
 

@@ -1,7 +1,9 @@
 # frozen_string_literal: true
+
 require 'spec_helper'
 require 'concourse/resource/ical/check'
 
+# rubocop:disable Metrics/BlockLength
 describe Concourse::Resource::ICal::Check do
   let(:feed_body) { File.read(fixture('runtime_pmc_meetings.ical')) }
 

@@ -1,7 +1,9 @@
 # frozen_string_literal: true
+
 require 'spec_helper'
 require 'concourse/resource/ical'
 
+# rubocop:disable Metrics/BlockLength
 describe Concourse::Resource::ICal::In do
   subject { Concourse::Resource::ICal::In.new(destination_directory) }
   let(:destination_directory) { Dir.mktmpdir }
