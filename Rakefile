@@ -12,6 +12,10 @@ namespace :spec do
   RSpec::Core::RakeTask.new(:unit) do |t|
     t.pattern = 'spec/unit/**/*_spec.rb'
   end
+
+  RSpec::Core::RakeTask.new(:system) do |t|
+    t.pattern = 'spec/system/**/*_spec.rb'
+  end
 end
 
 RuboCop::RakeTask.new

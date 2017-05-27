@@ -8,6 +8,7 @@ gem 'icalendar-recurrence'
 gem 'tzinfo'
 
 group :development do
+  gem 'aruba'
   gem 'bundler'
   gem 'guard-bundler'
   gem 'guard-rspec'
@@ -15,6 +16,8 @@ group :development do
   gem 'rake'
   gem 'rb-readline'
   gem 'rspec'
+  gem 'rspec-json_matcher'
   gem 'rubocop'
   gem 'timecop'
+  gem 'webmock'
 end

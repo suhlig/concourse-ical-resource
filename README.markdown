@@ -37,29 +37,28 @@ resources:
 
 ## `check`: Extract items from the feed
 
-The resource will fetch the iCal feed specified in `url` and will version items by their `TODO` attribute.
+The resource will fetch the iCal feed specified in `url` and will version items by their start and end attributes.
 
 **Example**
 
-As of writing this README, the [PostgreSQL versions feed](https://www.postgresql.org/versions.rss) has a number of items with a `pubDate` of "`Thu, 27 Oct 2016 00:00:00 +0000`" (`9.6.1`, `9.5.5`, `9.4.10`, `9.3.15`, `9.2.19`, `9.1.24`, and `9.0.23`), of which `9.6.1` is the first and is being returned from `check`.
+A calendar has events scheduled for 10 a.m. - 11 a.m. and 3 p.m. - 3:30 p.m. today. Upon check, the resource will return the version `t9aposkhg5it3ofgmmq0e62vlc_R20161214T223000@google.com`, assuming that this is the `UID` of the 3 p.m. event.
 
 ## `in`: Fetch an item from the feed
 
-The resource will select the first item of the feed that has the requested `pubDate`. For each attribute of the that item, it writes the attribute value to a file into the destination directory.
+The resource will select the first item of the feed that has the requested `start`. For each attribute of that item, it writes the attribute value to a file into the destination directory.
 
 **Example**
 
-Asked for the version with a `pubDate` of "`Thu, 27 Oct 2016 00:00:00 +0000`" on `in`, the resource will write the following files to the destination directory:
+With the feed in `spec/fixtures/runtime_pmc_meetings.ical`, when asked for the version with a `start` of "`2017-10-03 15:00:00 UTC`", the resource will write the following files to the destination directory:
 
-| File Name   | Content                                                       |
-| ----------- | ------------------------------------------------------------- |
-|`title`      | 9.6.1                                                         |
-|`link`       | https://www.postgresql.org/docs/9.6/static/release-9-6-1.html |
-|`description`| 9.6.1 is the latest release in the 9.6 series.                |
-|`pubDate`    | Thu, 27 Oct 2016 00:00:00 +0000                               |
-|`guid`       | https://www.postgresql.org/docs/9.6/static/release-9-6-1.html |
-
-You can then read these files in a task and, for example, construct a [Slack notification](https://github.com/cloudfoundry-community/slack-notification-resource) saying which new PostgreSQL version is available.
+| File Name     | Content                                                       |
+| ------------- | ------------------------------------------------------------- |
+| `uid`         | t9aposkhg5it3ofgmmq0e62vlc_R20161214T223000@google.com        |
+| `summary`     | Runtime PMC Meeting                                           |
+| `start_time`  | 20161214T173000                                               |
+| `end_time`    | 20161214T180000                                               |
+| `description` | https://meetings.webex.com/collabs/#/meetings/detail?uuid=XYZ |
+| `location`    | webex                                                         |
 
 ## `out`: Not implemented
 
