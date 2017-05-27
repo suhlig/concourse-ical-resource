@@ -2,7 +2,7 @@
 
 __Work in progress!__
 
-[![Build Status](https://travis-ci.org/suhlig/concourse-ical-resource.svg?branch=master)](https://travis-ci.org/suhlig/concourse-ical-resource)
+[![Build Status]([![Build Status](https://travis-ci.org/suhlig/concourse-ical-resource.svg?branch=add-resource-framework)](https://travis-ci.org/suhlig/concourse-ical-resource))
 
 [Concourse](https://concourse.ci/ "Concourse Homepage") [resource](https://concourse.ci/implementing-resources.html "Implementing a Resource") for ical feeds.
 
