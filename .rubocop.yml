@@ -15,7 +15,7 @@ AllCops:
   DisplayStyleGuide:
     Enabled: true
 
-Style/FileName:
+Naming/FileName:
   Exclude:
   - Guardfile
 
@@ -127,7 +127,7 @@ Style/Next:
 Style/NumericLiterals:
   Enabled: false
 
-Style/PredicateName:
+Naming/PredicateName:
   Enabled: false
 
 Style/RaiseArgs:
