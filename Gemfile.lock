@@ -105,7 +105,7 @@ GEM
     ruby_dep (1.5.0)
     shellany (0.0.1)
     thor (0.20.3)
-    timecop (0.9.1)
+    timecop (0.9.2)
     tzinfo (2.0.1)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
